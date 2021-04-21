@@ -1,4 +1,9 @@
 package back;
+import java.io.Serializable;
+import java.sql.Date;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+
 
 public class User {
 	public String username;
